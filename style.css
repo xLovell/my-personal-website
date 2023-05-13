@@ -1,6 +1,14 @@
 body {
-    background: rgb(179, 179, 179);
+    background: rgb(241, 241, 241);
   }
+
+h1 {
+    text-align: center;
+}
+
+div#button {
+    text-align: center;
+}
 
 button {
     padding: 16px 32px;
