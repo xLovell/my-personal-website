@@ -1,4 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
+function show() {
+    const image = document.getElementById("image")
+    image.src = "sailor.jpg"
+    document.getElementById("btnID").style.display = "none"
+    document.getElementById("begging").style.display = "none"
+    document.getElementById("title").textContent = "It's Sailor! :D"
+}
